@@ -1,0 +1,6 @@
+C:\Users\s0lut\source\repos\EuclidGeometry\EuclidGeometry\bin\Debug\EuclidGeometry.dll
+C:\Users\s0lut\source\repos\EuclidGeometry\EuclidGeometry\bin\Debug\EuclidGeometry.pdb
+C:\Users\s0lut\source\repos\EuclidGeometry\EuclidGeometry\obj\Debug\EuclidGeometry.csproj.CoreCompileInputs.cache
+C:\Users\s0lut\source\repos\EuclidGeometry\EuclidGeometry\obj\Debug\EuclidGeometry.dll
+C:\Users\s0lut\source\repos\EuclidGeometry\EuclidGeometry\obj\Debug\EuclidGeometry.pdb
+C:\Users\s0lut\source\repos\EuclidGeometry\EuclidGeometry\obj\Debug\EuclidGeometry.csprojAssemblyReference.cache
