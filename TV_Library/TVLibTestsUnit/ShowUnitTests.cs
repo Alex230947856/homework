@@ -13,7 +13,7 @@ namespace TVLibTestsUnit
             var myMythbusters = CreateTestShow();
             Assert.AreEqual("Mythbusters", myMythbusters.ProgramTV);
             Assert.AreEqual("Adam Savage and Jamie Hyneman", myMythbusters.Host);
-            Assert.AreEqual("Проверка легенд и мифов практическими экспериментами", myMythbusters.Description);
+            Assert.AreEqual("РџСЂРѕРІРµСЂРєР° Р»РµРіРµРЅРґ Рё РјРёС„РѕРІ РїСЂР°РєС‚РёС‡РµСЃРєРёРјРё СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°РјРё", myMythbusters.Description);
             Assert.AreEqual("20:00", myMythbusters.GetReleaseDate);
             Assert.AreEqual(FrequencyTypes.Daily, myMythbusters.Period);
 
@@ -30,8 +30,8 @@ namespace TVLibTestsUnit
         {
 
             var myMythbusters = CreateTestShow();
-            var bearGrills = new Show("Running Wild with Bear Grylls", "Bear Grylls", "Шоу о применении навыков выживания", FrequencyTypes.NonPeriodic, "25.06.2021 11:00");
-            var consoleOut = new[] { "Mythbusters, Adam Savage and Jamie Hyneman", $"Описание программы: Проверка легенд и мифов практическими экспериментами. Частота: ежедневно. Дата выхода: 20:00." , "Running Wild with Bear Grylls, Bear Grylls", "Описание программы: Шоу о применении навыков выживания. Частота: не указана. Дата выхода: 25.06.2021 11:00."};
+            var bearGrills = new Show("Running Wild with Bear Grylls", "Bear Grylls", "РЁРѕСѓ Рѕ РїСЂРёРјРµРЅРµРЅРёРё РЅР°РІС‹РєРѕРІ РІС‹Р¶РёРІР°РЅРёСЏ", FrequencyTypes.NonPeriodic, "25.06.2021 11:00");
+            var consoleOut = new[] { "Mythbusters, Adam Savage and Jamie Hyneman", $"РћРїРёСЃР°РЅРёРµ РїСЂРѕРіСЂР°РјРјС‹: РџСЂРѕРІРµСЂРєР° Р»РµРіРµРЅРґ Рё РјРёС„РѕРІ РїСЂР°РєС‚РёС‡РµСЃРєРёРјРё СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°РјРё. Р§Р°СЃС‚РѕС‚Р°: РµР¶РµРґРЅРµРІРЅРѕ. Р”Р°С‚Р° РІС‹С…РѕРґР°: 20:00." , "Running Wild with Bear Grylls, Bear Grylls", "РћРїРёСЃР°РЅРёРµ РїСЂРѕРіСЂР°РјРјС‹: РЁРѕСѓ Рѕ РїСЂРёРјРµРЅРµРЅРёРё РЅР°РІС‹РєРѕРІ РІС‹Р¶РёРІР°РЅРёСЏ. Р§Р°СЃС‚РѕС‚Р°: РЅРµ СѓРєР°Р·Р°РЅР°. Р”Р°С‚Р° РІС‹С…РѕРґР°: 25.06.2021 11:00."};
 
             
             TextWriter oldOut = Console.Out; 
@@ -50,7 +50,7 @@ namespace TVLibTestsUnit
         [TestMethod]
             private Show CreateTestShow()
             {
-                return new Show("Mythbusters", "Adam Savage and Jamie Hyneman", "Проверка легенд и мифов практическими экспериментами", FrequencyTypes.Daily, "29.07.2021 20:00");
+                return new Show("Mythbusters", "Adam Savage and Jamie Hyneman", "РџСЂРѕРІРµСЂРєР° Р»РµРіРµРЅРґ Рё РјРёС„РѕРІ РїСЂР°РєС‚РёС‡РµСЃРєРёРјРё СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°РјРё", FrequencyTypes.Daily, "29.07.2021 20:00");
             }
         }
     }
