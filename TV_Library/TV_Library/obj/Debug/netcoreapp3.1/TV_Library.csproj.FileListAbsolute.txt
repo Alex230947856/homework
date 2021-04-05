@@ -1,0 +1,9 @@
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\bin\Debug\netcoreapp3.1\TV_Library.deps.json
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\bin\Debug\netcoreapp3.1\TV_Library.dll
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\bin\Debug\netcoreapp3.1\TV_Library.pdb
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\obj\Debug\netcoreapp3.1\TV_Library.csprojAssemblyReference.cache
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\obj\Debug\netcoreapp3.1\TV_Library.AssemblyInfoInputs.cache
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\obj\Debug\netcoreapp3.1\TV_Library.AssemblyInfo.cs
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\obj\Debug\netcoreapp3.1\TV_Library.csproj.CoreCompileInputs.cache
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\obj\Debug\netcoreapp3.1\TV_Library.dll
+C:\Users\r3s0l\source\repos\TV_Library\TV_Library\obj\Debug\netcoreapp3.1\TV_Library.pdb
